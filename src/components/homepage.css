@@ -1,0 +1,46 @@
+.roboto-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.roboto-large {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 150%;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.project-box {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.project-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 150%;
+  font-style: normal;
+}
+
+.project-technologies {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
