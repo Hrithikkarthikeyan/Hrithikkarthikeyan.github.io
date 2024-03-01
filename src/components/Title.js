@@ -1,9 +1,10 @@
 import React from 'react'
+import './homepage.css'
 
 function Title({name, allProjects}) {
   return (
     <div>
-    <div className='roboto-large' style={{marginTop:"100px", float: "left", textAlign:"left", position:"absolute", left:"20%", right:"20%"}}>
+    <div className='roboto-large title'>
       {name}
       <div>
         <hr
@@ -17,7 +18,7 @@ function Title({name, allProjects}) {
         />
       </div>
     </div>
-      <div style={{marginTop:"220px", float: "left", textAlign:"left", position:"absolute", left:"20%", right:"20%"}}>{allProjects}</div>
+      <div className='content'>{allProjects}</div>
     </div>
   )
 }

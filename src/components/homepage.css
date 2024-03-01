@@ -1,3 +1,21 @@
+.title {
+  margin-top: 100px;
+  float: left;
+  text-align:left;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
+
+.content {
+  margin-top: 220px;
+  float: left;
+  text-align:left;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +123,24 @@
   .input-cursor{
     height: 30px;
   }
+
+  .title {
+    margin-top: 100px;
+    float: left;
+    text-align:left;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+  }
+  
+  .content {
+    margin-top: 220px;
+    float: left;
+    text-align:left;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -128,6 +164,24 @@
   }
   .input-cursor{
     height: 30px;
+  }
+
+  .title {
+    margin-top: 100px;
+    float: left;
+    text-align:left;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+  }
+  
+  .content {
+    margin-top: 220px;
+    float: left;
+    text-align:left;
+    position: absolute;
+    left: 5%;
+    right: 5%;
   }
 }
 
