@@ -6,8 +6,9 @@ function ProjectsPage() {
   const projects = [
     {
       name: "Connected - Social networking website",
-      description: "A web application that helps users connect and also upload multiple images, like, comment, and share the posts.",
-      technologies: "Ruby on Rails, JavaScript, Bootstrap, MySql"
+      description: "A web application that helps users connect and also upload multiple images, like, comment, and share the posts. \nUsers can upload multiple images in a post. likes and comments in a post will not reload the page. \nUsers can search for other users and send connection requests to them. They can also undo the request. \nUsers can look into their connection requests list and accept the request. \nUsers also get suggestions for connecting with other users. Most relevant users will be the top suggestion (i.e, friends of friends) \nUsers can edit their profiles. also, add a profile picture if required. \nUsers can also delete their posts or even their accounts. \nUsers can also see who viewed them in the past week. Views older than 7 days are deleted using a cronjob which runs each day to execute a rake that deletes the older views. \nUsers can log out from the connected app.",
+      technologies: "Ruby on Rails, JavaScript, Bootstrap, MySql",
+      link: "https://github.com/Hrithikkarthikeyan/Connected"
     },
     {
       name: "Navigation system for Visually Impaired using VSLAM",
@@ -17,12 +18,14 @@ function ProjectsPage() {
     {
       name: "Educational content using VR",
       description: "A virtual reality app to provide an immersive educational experience for children with realistic 3-D projections of various objects included in different static and dynamic applications.",
-      technologies: "Unity 3D, C#"
+      technologies: "Unity 3D, C#",
+      link: "https://github.com/Hrithikkarthikeyan/Educational-content-using-VR"
     },
     {
       name: "Farmer’s guide",
-      description: "An application to predict the production of a crop for a particular land using a machine learning model with random forest regressor and suggest the best crop for that land so that the farmers are profited. The model has an accuracy of 90%. The application also includes an interface to connect the farmers directly to the customers in order to sell their crops.",
-      technologies: "Python, ReactJS, Flask"
+      description: "An application to predict the production of a crop for a particular land using a machine learning model with random forest regressor and suggest the best crop for that land so that the farmers are profited. The model has an accuracy of 90%. \nThe application also includes an interface to connect the farmers directly to the customers in order to sell their crops.",
+      technologies: "Python, ReactJS, Flask",
+      link: "https://github.com/Hrithikkarthikeyan/Farmers-guide"
     },
     {
       name: "Safe Shop-COVID 19 Project",
@@ -32,11 +35,12 @@ function ProjectsPage() {
     {
       name: "Sports development",
       description: "A website to connect sports enthusiasts and also different sports/games organisers.",
-      technologies: "HTML, PHP, CSS, Bootstrap, MySql"
+      technologies: "HTML, PHP, CSS, Bootstrap, MySql",
+      link: "https://github.com/Hrithikkarthikeyan/sportsdevelopment"
     },
     {
       name: "Hostel complaints",
-      description: "An online website to record different kind of complaints from hostellers and sort them into different departments which can solve the problem. The application sorts the problems based upon their importance and their requirement to solve them immediately.",
+      description: "An online website to record different kind of complaints from hostellers and sort them into different departments which can solve the problem. \nThe application sorts the problems based upon their importance and their requirement to solve them immediately.",
       technologies: "HTML, CSS, Bootstrap, MySql"
     },
     {
@@ -57,21 +61,24 @@ function ProjectsPage() {
     {
       name: "Asteroids",
       description: "A python game using pygame library, for a retro and old school game by controlling the ships and destroying the astroids.",
-      technologies: "Python"
+      technologies: "Python",
+      link: "https://github.com/Hrithikkarthikeyan/Asteroids"
     },
     {
       name: "Cats or Dogs",
       description: "A machine learning model using convolutional neural networks to differentiate cats from dogs.",
-      technologies: "Python"
+      technologies: "Python",
+      link: "https://github.com/Hrithikkarthikeyan/Cats-or-Dogs"
     },
     {
       name: "Face recognition",
       description: "A facial recognition app using python opencv library, which can detect anyone and can mark all the faces that are detected from a camera or an image to a csv file.",
-      technologies: "Python OpenCv, Image Processing"
+      technologies: "Python OpenCv, Image Processing",
+      link: "https://github.com/Hrithikkarthikeyan/Face-recognition"
     }
   ]
   let allProjects = projects.map((project, index) => {
-    return <div><Project id={index} name={project.name} description={project.description} technologies={project.technologies} /> <br/></div>
+    return <div><Project id={index} name={project.name} description={project.description} technologies={project.technologies} link={project.link} /> <br/></div>
   })
   
   return (

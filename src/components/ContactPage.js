@@ -4,6 +4,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from '@mui/icons-material/Code';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 function ContactPage() {
   const contacts = [
@@ -30,10 +31,15 @@ function ContactPage() {
       name: "Leetcode",
       link: "https://leetcode.com/hrithikkarthik/",
       subName: "Hrithikkarthik"
+    },
+    {
+      icon: <LocationOnIcon />,
+      name: "Address",
+      subName: "Hyderabad, Telangana, India"
     }
   ]
   const allContacts = contacts.map((contact) => {
-    return <div>{contact.icon} {contact.name} : <a href={contact.link}>{contact.subName}</a> <br/> </div>
+    return <div style={{marginTop: "5px"}}>{contact.icon} <span style={{position: "absolute", marginTop: "1px", marginLeft: "3px"}}>{contact.name}: <a href={contact.link}>{contact.subName}</a></span> <br/> </div>
   })
   return (
     <div>

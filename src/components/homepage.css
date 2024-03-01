@@ -1,3 +1,41 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* font-size: 30px; */
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 50px;
+  background-color: rgb(21, 2, 2);
+  margin-left: 0px;
+  animation: blink .6s linear infinite alternate;
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@media (max-width: 1000px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
 .roboto-bold {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -8,8 +46,89 @@
 .roboto-large {
   font-family: "Open Sans", sans-serif;
   font-weight: 1000;
-  font-size: 50px;
+  font-size: 300%;
   font-style: normal;
+}
+@media screen and (max-width: 1024px) {
+  .roboto-large {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 300%;
+    font-style: normal;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .roboto-large {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 300%;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+  }
+  .roboto-medium {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 130%;
+    font-style: normal;
+  }
+  .input-cursor{
+    height: 50px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .roboto-large {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 200%;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+  }
+  .roboto-medium {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    font-style: normal;
+  }
+  .input-cursor{
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .roboto-large {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 200%;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+  }
+  .roboto-medium {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 70%;
+    font-style: normal;
+  }
+  .input-cursor{
+    height: 30px;
+  }
 }
 
 .roboto-medium {
@@ -44,3 +163,12 @@
   font-weight: 500;
   font-style: normal;
 }
+
+.skill-box {
+  /* padding: 10px; */
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 5px;
+  
+}
+
