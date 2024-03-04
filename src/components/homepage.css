@@ -16,6 +16,12 @@
   right: 20%;
 }
 
+.home-page-container {
+  top: 15%;
+  left: 15%;
+  right: 15%;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -26,6 +32,7 @@
 .flex-item-left {
   padding: 10px;
   flex: 50%;
+  margin-top: 15px;
 }
 
 .flex-item-right {
@@ -140,6 +147,16 @@
     position: absolute;
     left: 10%;
     right: 10%;
+  }
+
+  .home-page-container {
+    top: 10%;
+    left: 10%;
+    right: 10%;
+  }
+
+  .flex-item-left {
+    margin-top: 0px;
   }
 }
 

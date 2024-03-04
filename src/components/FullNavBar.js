@@ -53,12 +53,12 @@ function FullNavBar() {
         </Container>
       </Navbar>
       <Routes>
-          <Route path="/achivements" element={<Achivements />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Route path="/achivements" element={<Achivements />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   )
 }

@@ -33,6 +33,18 @@ function ContactPage() {
       subName: "Hrithikkarthik"
     },
     {
+      icon: <CodeIcon />,
+      name: "Geeks For Geeks",
+      link: "https://auth.geeksforgeeks.org/user/hrithikkarthikeyan/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user",
+      subName: "hrithikkarthikeyan"
+    },
+    {
+      icon: <CodeIcon />,
+      name: "Hackerrank",
+      link: "https://www.hackerrank.com/profile/hrithikkarthik",
+      subName: "Hrithik Karthikeyan"
+    },
+    {
       icon: <LocationOnIcon />,
       name: "Address",
       subName: "Hyderabad, Telangana, India"

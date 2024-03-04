@@ -7,6 +7,7 @@ function Skills() {
     "Ruby on Rails",
     "C++",
     "JavaScript",
+    "jQuery",
     "Java",
     "HTML",
     "Python",
@@ -28,18 +29,14 @@ function Skills() {
     "JSP",
     "Servlets",
     "Cucumbers",
-    "Elastic Search",
     "Problem Solving",
     "Algorithms",
-    "System Design"
-  ]
-
-  const colors = [
-    "success",
-    "primary",
-    "secondary",
-    "action",
-    "",
+    "System Design",
+    "Google Analytics",
+    "Data analytics",
+    "Mixpanel",
+    "Agile",
+    "Machine Learning"
   ]
 
   const allSkills = skills.map((skill, index) => {

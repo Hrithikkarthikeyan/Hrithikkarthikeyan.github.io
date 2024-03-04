@@ -26,9 +26,9 @@ function HomePage() {
   
 
   return (
-    <div style={{position:"absolute", top:"15%", left:"15%", right:"15%"}}>
+    <div className='home-page-container'   style={{position:"absolute"}}>
       <div className='flex-container' style={{ maxWidth:"1000px"}}>
-        <div className='flex-item-left' style={{marginTop: "15px"}}>
+        <div className='flex-item-left' style={{}}>
           <img src={photo} alt="Hrithik" width="100%" height="auto" style={{float: "right"}} />
         </div>
         <div className='flex-item-right' style={{float: "left", textAlign:"left"}}>
