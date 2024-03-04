@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import photo from './Hrithik.jpg';
 import './homepage.css';
 import Skills from './Skills';
+import Resume from './Resume'
 
 
 function HomePage() {
@@ -41,6 +42,8 @@ function HomePage() {
           <div className='roboto-regular'>
           Dedicated and motivated software engineer with strong problem-solving skills. Passionate about learning and developing user-friendly, performant, and quality software applications. Enthusiastic about leveraging machine learning technologies in innovative projects.
           </div>
+          <br />
+          <Resume />
           <br />
           <Skills />
         </div>
