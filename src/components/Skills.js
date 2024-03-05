@@ -46,13 +46,15 @@ function Skills() {
     //       </Button>
   }) 
   return (
-    <div>
-      <div className='roboto-medium' style={{marginTop: "20px"}}>
+    <div style={{marginLeft: "10px"}}>
+      <div className='roboto-medium' style={{marginTop: "20px", float:"left"}}>
         Skills
       </div>
+      <br />
+      <br />
       {/* <Button variant="contained" color="success" sx={{ fontSize: 10 }} style={{marginRight: "10px", marginTop: "10px"}} disabled disableElevation>
       </Button> */}
-      <div style={{marginTop: "5px", fontSize: "80%"}}>
+      <div style={{marginTop: "20px", fontSize: "80%", textAlign:"left"}}>
         {allSkills}
       </div>
       {/* <span className="mr-2 mb-2 rounded-sm px-2 py-1 text-xs font-small text-white" style={{"background": "Green"}}>Go</span> */}

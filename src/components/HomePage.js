@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import photo from './Hrithik.jpg';
+import photo2 from './Hrithik2.jpeg';
 import './homepage.css';
 import Skills from './Skills';
 import Resume from './Resume'
@@ -24,13 +25,27 @@ function HomePage() {
     return <span>{currentText}</span>
   }
 
-  
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
     <div className='home-page-container'   style={{position:"absolute"}}>
       <div className='flex-container' style={{ maxWidth:"1000px"}}>
         <div className='flex-item-left' style={{}}>
-          <img src={photo} alt="Hrithik" width="100%" height="auto" style={{float: "right"}} />
+          {/* <img src={photo} alt="Hrithik" width="100%" height="auto" style={{float: "right"}} /> */}
+          <img 
+            src={photo2} 
+            alt="Hrithik" 
+            className={`smooth-image image-${
+              imageLoaded ? 'visited' : 'hidden'
+            }`}
+            onLoad={() => setImageLoaded(true)}
+            width="100%" height="auto" style={{float: "right"}}
+            />
+          {imageLoaded && (
+            <div className='smooth-preloader'>
+              <span className='loader' width="100%" height="auto" style={{float: "right"}} />
+            </div>
+          )}
         </div>
         <div className='flex-item-right' style={{float: "left", textAlign:"left"}}>
           <div id="homepage_name" className="roboto-large">
@@ -45,8 +60,8 @@ function HomePage() {
           <br />
           <Resume />
           <br />
-          <Skills />
         </div>
+          <Skills />
       </div>
     </div>
   )
