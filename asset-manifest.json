@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.17f4cacd.chunk.css",
-    "main.js": "/static/js/main.3f172551.chunk.js",
-    "main.js.map": "/static/js/main.3f172551.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0bab80ca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0bab80ca.js.map",
+    "main.css": "/static/css/main.7b99c061.chunk.css",
+    "main.js": "/static/js/main.7cc144c8.chunk.js",
+    "main.js.map": "/static/js/main.7cc144c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.49cb3e72.js",
+    "runtime-main.js.map": "/static/js/runtime-main.49cb3e72.js.map",
     "static/css/2.35424416.chunk.css": "/static/css/2.35424416.chunk.css",
-    "static/js/2.0de922c3.chunk.js": "/static/js/2.0de922c3.chunk.js",
-    "static/js/2.0de922c3.chunk.js.map": "/static/js/2.0de922c3.chunk.js.map",
-    "static/js/3.47712efa.chunk.js": "/static/js/3.47712efa.chunk.js",
-    "static/js/3.47712efa.chunk.js.map": "/static/js/3.47712efa.chunk.js.map",
+    "static/js/2.ea046182.chunk.js": "/static/js/2.ea046182.chunk.js",
+    "static/js/2.ea046182.chunk.js.map": "/static/js/2.ea046182.chunk.js.map",
+    "static/js/3.3b39cc22.chunk.js": "/static/js/3.3b39cc22.chunk.js",
+    "static/js/3.3b39cc22.chunk.js.map": "/static/js/3.3b39cc22.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.45e86c7930fc90904f0f9f93de6f7684.js": "/precache-manifest.45e86c7930fc90904f0f9f93de6f7684.js",
+    "precache-manifest.5c664d67c89014e51a3e66d2bfabc886.js": "/precache-manifest.5c664d67c89014e51a3e66d2bfabc886.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.35424416.chunk.css.map": "/static/css/2.35424416.chunk.css.map",
-    "static/css/main.17f4cacd.chunk.css.map": "/static/css/main.17f4cacd.chunk.css.map",
-    "static/js/2.0de922c3.chunk.js.LICENSE.txt": "/static/js/2.0de922c3.chunk.js.LICENSE.txt",
+    "static/css/main.7b99c061.chunk.css.map": "/static/css/main.7b99c061.chunk.css.map",
+    "static/js/2.ea046182.chunk.js.LICENSE.txt": "/static/js/2.ea046182.chunk.js.LICENSE.txt",
     "static/media/Hrithik-resume-mar-2.pdf": "/static/media/Hrithik-resume-mar-2.a65b9280.pdf",
-    "static/media/Hrithik.jpg": "/static/media/Hrithik.5b4cd774.jpg"
+    "static/media/Hrithik.jpg": "/static/media/Hrithik.5b4cd774.jpg",
+    "static/media/Hrithik2.jpeg": "/static/media/Hrithik2.fd5e7762.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bab80ca.js",
+    "static/js/runtime-main.49cb3e72.js",
     "static/css/2.35424416.chunk.css",
-    "static/js/2.0de922c3.chunk.js",
-    "static/css/main.17f4cacd.chunk.css",
-    "static/js/main.3f172551.chunk.js"
+    "static/js/2.ea046182.chunk.js",
+    "static/css/main.7b99c061.chunk.css",
+    "static/js/main.7cc144c8.chunk.js"
   ]
 }
