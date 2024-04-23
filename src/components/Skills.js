@@ -36,7 +36,13 @@ function Skills() {
     "Data analytics",
     "Mixpanel",
     "Agile",
-    "Machine Learning"
+    "Machine Learning",
+    "NextJs",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "Prisma",
+    "Flask",
+    "JWT"
   ]
 
   const allSkills = skills.map((skill, index) => {

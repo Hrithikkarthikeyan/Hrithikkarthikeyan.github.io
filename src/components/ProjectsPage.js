@@ -5,6 +5,18 @@ import Project from './Project'
 function ProjectsPage() {
   const projects = [
     {
+      name: "Todo app",
+      description: "Users can sign-up / login using a valid email and password to the application. \nUsers can add new todos. \nUsers can delete or update any of their todos. \nUsers can mark a todo as completed. \nUsers can create lists and add any number of todos to the list. \nUsers can create groups and add any number of Lists to the group. \nUsers can delete any of their groups and lists. \nUsers can search their tasks using the search bar. \nUsers can filter their todos(all, completed, yet to complete). \nDefault todos will be added to the Reminders list.",
+      technologies: "ReactJs, HTML, CSS, Bootstrap, Python Flask, flask_mysqldb, MySQL, JWT authentication, REST API",
+      link: "https://react-todo-app-one-eta.vercel.app/"
+    },
+    {
+      name: "Admin Dashboard",
+      description: "This is a responsive website created using Next.js, Tailwind CSS, ProstgreSQL, Prisma. \nAdmins can view the reports dashboard after sign-in / sign-up. \nAdmins can view all the other admins and delete other admins. \nAdmins can also update their details",
+      technologies: "Next.js, Tailwind CSS, Prisma, PostgreSQL",
+      link: "https://next-js-dashboard-pink-six.vercel.app/"
+    },
+    {
       name: "Connected - Social networking website",
       description: "A web application that helps users connect and also upload multiple images, like, comment, and share the posts. \nUsers can upload multiple images in a post. likes and comments in a post will not reload the page. \nUsers can search for other users and send connection requests to them. They can also undo the request. \nUsers can look into their connection requests list and accept the request. \nUsers also get suggestions for connecting with other users. Most relevant users will be the top suggestion (i.e, friends of friends) \nUsers can edit their profiles. also, add a profile picture if required. \nUsers can also delete their posts or even their accounts. \nUsers can also see who viewed them in the past week. Views older than 7 days are deleted using a cronjob which runs each day to execute a rake that deletes the older views. \nUsers can log out from the connected app.",
       technologies: "Ruby on Rails, JavaScript, Bootstrap, MySql",
